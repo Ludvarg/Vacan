@@ -19,8 +19,9 @@ h2{
 }
 
 .top-bar{
-    display: flex;
+    display: grid;
     background-image: linear-gradient(rgb(43, 41, 38) 85%,rgb(224, 193, 145));
+    grid-template-columns: 10fr 1fr;
     height: 5rem;
     width: 100%;
     position: absolute;
@@ -28,12 +29,40 @@ h2{
     padding-left: 1rem;
 }
 
+.top-bar{
+    
+}
+
+
 .spacer{
     height: 6rem;
 }
 
+.line{
+    background-color: rgb(224, 193, 145);
+    height: 0.2rem;
+    margin: 1rem 0% 1rem 0% ;
+}
+
 .title{
     margin: 3rem;
+}
+
+.flavour-text{
+    background-color: rgb(31, 29, 26);
+    border-radius: 1rem;
+    margin: 1% 10% 0% 10%;
+    padding: 1rem;
+    font-style: italic;
+    font-size: 2rem;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center
+}
+
+.flavour-text *{
+    background-color: rgb(31, 29, 26);
 }
 
 .cards{
@@ -85,8 +114,43 @@ h2{
 .image-card * img:hover {
     transform: scale(1.05);
 }
+
+.information-page {
+    border: 0.2rem rgb(224, 193, 145) solid;
+    border-radius: 1rem;
+    background-color: rgb(197, 176, 145);
+    box-shadow: 0px 0px 50px black;
+    font-size: 1.2rem;
+    color: black;
+    height: 1000px;
+    margin: 0% 20% 0% 20%;
+    padding: 1rem;
+}
+
+
+.information-page *{
+    background-color: rgb(197, 176, 145);
+    color: black;
+}
+
+
 .bottom-bar{
     background-image: linear-gradient(to top,rgb(43, 41, 38) 85%,rgb(224, 193, 145));
     height: 7rem;
     width: 100%;
+}
+@media screen and (max-width: 1400px)
+{
+         
+    .cards{
+        grid-template-columns: 100%;
+    }
+}
+
+@media screen and (max-width: 750px)
+{
+         
+    .cards{
+        margin: 0% 10% 0% 10%;
+    }
 }
