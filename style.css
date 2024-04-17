@@ -29,19 +29,8 @@ h2{
     padding-left: 1rem;
 }
 
-.top-bar{
-    
-}
-
-
 .spacer{
     height: 6rem;
-}
-
-.line{
-    background-color: rgb(224, 193, 145);
-    height: 0.2rem;
-    margin: 1rem 0% 1rem 0% ;
 }
 
 .title{
@@ -127,18 +116,34 @@ h2{
     padding: 1rem;
 }
 
+.information-page h2,h4{
+    text-align: center;
+}
 
 .information-page *{
     background-color: rgb(197, 176, 145);
     color: black;
 }
 
-
 .bottom-bar{
     background-image: linear-gradient(to top,rgb(43, 41, 38) 85%,rgb(224, 193, 145));
     height: 7rem;
     width: 100%;
 }
+
+.line{
+    background-color: rgb(224, 193, 145);
+    height: 0.2rem;
+    margin: 1rem 0% 1rem 0% ;
+}
+
+.dark-line{
+    
+    background-color: rgb(31, 29, 26);
+    height: 0.2rem;
+    margin: 1rem 0% 1rem 0% ;
+}
+
 @media screen and (max-width: 1400px)
 {
          
