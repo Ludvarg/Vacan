@@ -144,6 +144,16 @@ h2{
     margin: 1rem 0% 1rem 0% ;
 }
 
+#CVS{
+    display: flex;
+    justify-self: center;
+    border: 10px rgb(43, 41, 38) solid;
+    border-radius: 1rem;
+    margin:5rem auto;
+    box-shadow: 0px 0px 50px black;
+
+}
+
 @media screen and (max-width: 1400px)
 {
          
