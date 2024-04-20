@@ -129,13 +129,39 @@ h2{
     padding: 1rem;
 }
 
-.information-page h2,h4{
+.information-page *{
+    background-color: rgba(0,0,0,0);
+    color: black;
+}
+
+.information-page h2,h3{
     text-align: center;
 }
 
-.information-page *{
-    background-color: rgb(197, 176, 145);
-    color: black;
+.information-page ul{
+    margin-left: 2rem;
+}
+.subheading{
+    text-align: center;
+}
+.important-information-block{
+    background-color: rgb(194, 158, 100);
+    border-radius: 1rem;
+}
+.information-block{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.information-block h4{
+    text-align: center;
+}
+
+.information-block > div{
+    margin: 1rem;
+    padding: 0.2rem;
+    border: 0.2rem rgb(161, 143, 115) solid;
+    border-radius: 1rem;
 }
 
 .bottom-bar{
