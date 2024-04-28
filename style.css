@@ -24,7 +24,9 @@ h2{
     grid-template-columns: 10fr 1fr;
     height: 5rem;
     width: 100%;
-    position: absolute;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
     align-items: center;
     padding-left: 1rem;
 }
