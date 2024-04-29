@@ -201,6 +201,12 @@ h2{
 
 }
 
+.lore{
+    background-color: rgb(230, 213, 187);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
 /*Vacan Times SlideShow*/
 .slideshow-container {
     max-width: 1000px;
