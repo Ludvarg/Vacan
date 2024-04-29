@@ -17,3 +17,12 @@ function showSlides(n, no) {
     }
     x[slideIndex[no]-1].style.display = "block";  
 }
+
+function scrollToId(id) {
+    let targetElement = document.getElementById("Vacan-Times-" + id);
+
+      targetElement.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+      });
+}

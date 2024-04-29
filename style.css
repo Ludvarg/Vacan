@@ -53,6 +53,12 @@ h2{
     margin: 3rem;
 }
 
+.news-navbar{
+    padding: 0.4rem;
+    border: 0.1rem solid rgb(32, 31, 28);
+    border-radius: 1rem;
+}
+
 .flavour-text{
     background-color: rgb(31, 29, 26);
     border-radius: 1rem;
