@@ -221,13 +221,13 @@ h2{
     width: auto;
     padding: 1rem;
     margin-top: -5rem;
-    color: rgb(161, 161, 161);
+    color: rgba(161, 161, 161, 0.521);
     font-weight: bold;
     font-size: 5rem;
     transition: 0.6s ease;
     border-radius: 0 1rem 1rem 0;
     user-select: none;
-    background-color: #f1f1f188;
+    background-color: #f1f1f12c;
 }
 
 .next {
