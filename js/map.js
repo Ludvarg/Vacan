@@ -31,15 +31,15 @@ class Marker{
     if(mouseX> this.x && mouseX < this.x + this.width && mouseY> this.y && mouseY < this.y + this.height)
     {
       ctx.globalAlpha = 1;
-      ctx.font = "25px Arial";
-      ctx.fillStyle = "black";
+      ctx.font = "25px small-caps fantasy, serif";
+      ctx.fillStyle = "White";
       ctx.fillText(this.name,mouseX,mouseY);
     }
   }
 }
 
 let markers = [
-  new Marker("Monolith", 490, 560, 40, 40, "#156e2d")
+  new Marker("Monolith", 425, 500, 130, 130, "#156e2d")
 ];
 
 onmousemove = (e) => {
